@@ -4,6 +4,8 @@
 
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   a,
@@ -23,6 +25,8 @@
 
 .section:not(:last-child) {
  margin-bottom: 120px;
+ display: block;
+
 }
 
 .container {
@@ -290,7 +294,7 @@ letter-spacing: 0.4px;
 
 .team-text {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 8px;
     color: var(--SLATE, #434455);
 text-align: center;
 /* Body */
@@ -302,6 +306,27 @@ line-height: calc(24/16);
 letter-spacing: 0.32px;
 }
 
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.socials-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+height: 40px;
+ border-radius: 50%;
+ background-color: var(--IRIS, #4D5AE5);;
+}
+.socials-icon {
+    fill: #F4F4FD;
+}
+
+.socials-link:hover .social-icon{
+    
+}
 .footer {
     padding-top: 100px;
     padding-bottom: 100px;
